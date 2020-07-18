@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editatleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/atleta"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/rdoginas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mod" />
+
+        <RadioButton
+            android:id="@+id/rdosalto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mod2" />
+
+        <RadioButton
+            android:id="@+id/rdofut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mod3" />
+
+        <RadioButton
+            android:id="@+id/rdobasq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mod4" />
+
+        <RadioButton
+            android:id="@+id/rdoten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mod5" />
+
+        <RadioButton
+            android:id="@+id/rdonado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mod6" />
+
+        <RadioButton
+            android:id="@+id/rdopat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mod7" />
+
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/swmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/med" />
+
+    <Button
+        android:id="@+id/btncadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/cad"
+        android:onClick="cadastro" />
+</LinearLayout>

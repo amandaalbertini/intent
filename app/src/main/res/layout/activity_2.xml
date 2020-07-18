@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+
+    <TextView
+        android:id="@+id/idAtleta"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/idEsportes"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/idMedalha"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp" />
+</LinearLayout>

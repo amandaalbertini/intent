@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">intent</string>
+    <string name="atleta">Digite o nome do atleta</string>
+    <string name="mod">Ginástica olímpica</string>
+    <string name="mod2">Salto com vara</string>
+    <string name="mod3">Futebol</string>
+    <string name="mod4">Basquete</string>
+    <string name="mod5">Tênis</string>
+    <string name="mod6">Nado sincronizado</string>
+    <string name="mod7">Patinação artística</string>
+    <string name="med">Ganhou medalha</string>
+    <string name="cad">Cadastrar</string>
+</resources>
